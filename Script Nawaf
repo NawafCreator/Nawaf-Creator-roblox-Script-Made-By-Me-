@@ -46,7 +46,7 @@ Rayfield:Notify({
 
 local Slider = MainTab:CreateSlider({
    Name = "مغير سرعه",
-   Range = {0, 300},
+   Range = {0, 1000},
    Increment = 10,
    Suffix = "سرعه",
    CurrentValue = 10,
